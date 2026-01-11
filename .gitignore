@@ -1,0 +1,59 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+venv/
+env/
+
+# ===== Logs =====
+*.log
+
+# ===== Selenium =====
+chromedriver*
+geckodriver*
+msedgedriver*
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.iml
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===== Dados e Output =====
+data/
+output/
+results/
+*.csv
+*.json
+*.xlsx
+*.xls
+screenshots/
+downloads/
+
+# ===== Cache e Temporários =====
+*.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.coverage
+htmlcov/
+.tox/
+*.egg-info/
+dist/
+build/
+
+# ===== Configurações Locais =====
+.env.local
+config.local.py
+*.local
