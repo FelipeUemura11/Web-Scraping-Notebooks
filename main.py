@@ -1,5 +1,5 @@
 import logging
-from scraper.notebook import scraper_notebooks
+from scraper.notebook import scraper_nav
 
 logging.basicConfig(
     level=logging.INFO,
@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 def main():
     try:
         logger.info(" >> Iniciando o navegador Chrome... << ")
-        scraper_notebooks()
+        scraper_nav()
     except Exception as e:
         logger.error(f" >> Erro ao iniciar o navegador: {e} << ")
         raise
